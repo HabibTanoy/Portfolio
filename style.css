@@ -1,0 +1,85 @@
+ul li a {
+    color: black;
+}
+a:hover {
+  color: #0FBF61;
+}
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+.custom--button {
+    color: #0FBF61;
+    z-index: 2;
+    margin-right: 190px;
+}
+.common--button {
+    background-color: #E6F9EF;
+  }
+  .custom--button:hover {
+      text-decoration: none;
+      color: #0FBF61;
+  }
+  .button__edit:hover {
+    background-color: white;
+  }
+  
+  .img-one__modify {
+      top: 0;
+      right: 0;
+      position: absolute;
+      width: 610px;
+  }
+  
+  .name--tag {
+      font-weight: bold;
+  }
+  .card__modify {
+    line-height: 30px;
+  }
+
+  .icon__modify {
+    font-size: 18px;
+  }
+  .sub__modify {
+    font-size: 14px; 
+    color: #808080;
+  }
+  .card__custom {
+    position: relative;
+  }
+
+  .img__modify {
+    left: 60%;
+    top: 42%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .button__modify {
+    padding-left: 1px;
+  }
+
+  .card--2 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: -1;
+  }
+  .portfolio-img {
+    position: absolute;
+    right: 90%;
+  }
+  .message__modify {
+    resize: none;
+  }
+@media screen and (max-width:1024px) {
+    .custom--button { display: none; }
+  }
+  @media screen and (max-width:600px) {
+    .img__modify { left: 47%; } 
+    #hireme--button { margin: 0 auto; display: block;}
+    .Expertise { text-align: center;}
+    .portfolio-img { display: none;}
+  }
