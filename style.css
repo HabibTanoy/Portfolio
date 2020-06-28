@@ -80,6 +80,9 @@ a:hover {
   @media screen and (max-width:600px) {
     .img__modify { left: 47%; } 
     #hireme--button { margin: 0 auto; display: block;}
+    .common__center {
+      text-align: center;
+    }
     .Expertise { text-align: center;}
     .portfolio-img { display: none;}
   }
